@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AntConfiguration">
+    <buildFile url="file://$PROJECT_DIR$/deploy/deploy.assets.ant">
+      <customJdkName value="1.7" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/deploy/FastResourcesDeploy.ant" />
+    <buildFile url="file://$PROJECT_DIR$/deploy/sfx.ant" />
+    <buildFile url="file://$PROJECT_DIR$/deploy/Slotopia.ant" />
+    <buildFile url="file://$PROJECT_DIR$/deploy/SlotopiaTextures.ant">
+      <additionalClassPath>
+        <entry dir="file://$PROJECT_DIR$/deploy/lib" />
+      </additionalClassPath>
+      <customJdkName value="1.7" />
+    </buildFile>
+    <buildFile url="file://$PROJECT_DIR$/deploy/TexturePackerCompilation.ant" />
+    <buildFile url="file://$PROJECT_DIR$/deploy/Textures2ATF.ant" />
+  </component>
+</project>
+

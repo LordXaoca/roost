@@ -4,6 +4,26 @@
     <configurations>
       <configuration name="roost" pure-as="true" main-class="Root" output-file="roost.swf" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="19.0">
+          <entries>
+            <entry library-id="c4eff07d-34b2-4387-bc27-aab8a87a875b">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="afc13bb4-008e-4b71-90e9-7a1be107d267">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="865a6a7b-55ba-4bf2-998f-45a79ec74399">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="2c4f8769-edae-4cdb-9cd6-bfe462379116">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="8daa20d6-4e5d-4ef7-8561-ee75b07cd9ee">
+              <dependency linkage="Test" />
+            </entry>
+            <entry library-id="ff43403f-acb7-4526-b5b8-f40526e8908e">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="AIRSDK_Compiler_19" />
         </dependencies>
         <compiler-options>
@@ -18,14 +38,77 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master">
+      <sourceFolder url="file://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/src" isTestSource="false" />
+      <sourceFolder url="file://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/test" isTestSource="true" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/bin" />
     </content>
     <orderEntry type="jdk" jdkName="AIRSDK_Compiler_19" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="c4eff07d-34b2-4387-bc27-aab8a87a875b" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/flexunit-4.1.0-8-flex_4.1.0.16076.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="afc13bb4-008e-4b71-90e9-7a1be107d267" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/flexunit-cilistener-4.1.0-8-4.1.0.16076.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="865a6a7b-55ba-4bf2-998f-45a79ec74399" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/fluint-extensions-4.1.0-8-4.1.0.16076.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2c4f8769-edae-4cdb-9cd6-bfe462379116" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/hamcrest-as3-flex-1.1.3.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8daa20d6-4e5d-4ef7-8561-ee75b07cd9ee" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/mockolate-0.12.4-flex.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ff43403f-acb7-4526-b5b8-f40526e8908e" />
+        <CLASSES>
+          <root url="jar://D:/Soft/Flash/libs/robotlegs-framework-master/robotlegs-framework-master/lib/Swiftsuspenders-v2.1.0.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

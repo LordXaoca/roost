@@ -1,0 +1,13 @@
+<project name="deploy" basedir="./.." default="deploy">
+
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpath="ant/lib/ant-contrib-1.0b3.jar"/>
+    <target name="deploy" depends="clear,copy.templates"/>
+
+    <target name="clear">
+        <delete dir="bin" includeemptydirs="true"/>
+    </target>
+
+    <target name="copy.templates">
+        <zip basedir="assets/templates" destfile="bin/assets/templates/base-layout.zip"/>
+    </target>
+</project>

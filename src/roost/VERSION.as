@@ -1,4 +1,4 @@
-package by.roost {
+package roost {
 
 
     public class VERSION {
